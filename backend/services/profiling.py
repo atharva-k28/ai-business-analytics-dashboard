@@ -30,16 +30,10 @@ def get_duplicates_count(df):
     return int(df.duplicated().sum())
 
 def get_numerical_features(df):
-    return {
-        "numerical_features":
-            list(df.select_dtypes(include=["number"]).columns)
-    }
+    return list(df.select_dtypes(include=["number"]).columns)
 
 def get_categorical_features(df):
-    return {
-        "categorical_features":
-            list(df.select_dtypes(include=["object"]).columns)
-    }
+    return list(df.select_dtypes(include=["object"]).columns)
 
 def get_preview(df):
     preview_df = df.head().copy()
