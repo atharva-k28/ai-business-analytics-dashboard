@@ -1,6 +1,6 @@
-# AI Business Analytics Dashboard
+# AI-Powered Business Analytics & Data Profiling Platform
 
-An AI-powered analytics dashboard that allows users to upload datasets and automatically generate profiling, exploratory data analysis (EDA), and business insights using Google's Gemini API.
+AnAI-Powered Business Analytics & Data Profiling Platform that allows users to upload datasets and automatically generate profiling, exploratory data analysis (EDA), and business insights using Google's Gemini API.
 
 ---
 
